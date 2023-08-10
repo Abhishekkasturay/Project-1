@@ -1,6 +1,5 @@
 
-var reloadButton = document.getElementById("reloadButton")
-reloadButton.addEventListener("click", function() {
-    var audioElement = document.getElementById("audioElement");
-    location.reload();
+window.addEventListener("load", function() {
+    var audio = document.getElementById("audioElement");
+    audio.play();
 });
